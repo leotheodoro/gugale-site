@@ -83,7 +83,7 @@ export default ({
       Icon: MoneyIcon,
       title: "Ética e Transparência",
       description:
-        "Somos uma equipe que prezamos o respeito e o compromisso social.",
+        "Somos uma equipe que preza o respeito e o compromisso social.",
     },
   ];
 
