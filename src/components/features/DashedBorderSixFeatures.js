@@ -9,12 +9,9 @@ import defaultCardImage from "../../images/shield-icon.svg";
 
 import { ReactComponent as SvgDecoratorBlob3 } from "../../images/svg-decorator-blob-3.svg";
 
-import SupportIconImage from "../../images/support-icon.svg";
-import ShieldIconImage from "../../images/shield-icon.svg";
-import CustomizeIconImage from "../../images/customize-icon.svg";
-import FastIconImage from "../../images/fast-icon.svg";
-import ReliableIconImage from "../../images/reliable-icon.svg";
-import SimpleIconImage from "../../images/simple-icon.svg";
+import ConsultantIcon from "../../images/consultant-icon.svg";
+import DroneIcon from "../../images/drone-icon.svg";
+import AppIcon from "../../images/app-icon.svg";
 
 const Container = tw.div`relative`;
 
@@ -64,19 +61,19 @@ export default () => {
 
   const cards = [
     {
-      imageSrc: ShieldIconImage,
+      imageSrc: ConsultantIcon,
       title: "Consultoria",
       description:
         "Ajudamos nossos clientes dando suporte tecnológico para impulsionar sua empresa.",
     },
     {
-      imageSrc: SupportIconImage,
+      imageSrc: DroneIcon,
       title: "Produções Audiovisuais",
       description:
         "Fazemos vídeos institucionais e cinemáticos que ajudam o cliente a divulgar sua marca.",
     },
     {
-      imageSrc: CustomizeIconImage,
+      imageSrc: AppIcon,
       title: "Aplicativos",
       description:
         "Desenvolvemos aplicativos e softwares personalizados para automatizar o workflow do cliente fazendo com que ele gaste menos tempo com trabalhos manuais.",

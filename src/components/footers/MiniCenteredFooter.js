@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Container as ContainerBase } from "components/misc/Layouts.js";
 import logo from "../../images/logo.svg";
 import { ReactComponent as FacebookIcon } from "../../images/facebook-icon.svg";
-import { ReactComponent as TwitterIcon } from "../../images/twitter-icon.svg";
+import { ReactComponent as InstagramIcon } from "../../images/instagram-icon.svg";
 import { ReactComponent as YoutubeIcon } from "../../images/youtube-icon.svg";
 
 const Container = tw(ContainerBase)`bg-gray-900 text-gray-100 -mx-8 -mb-8`;
@@ -37,26 +37,26 @@ export default () => {
             <LogoImg src={logo} />
             <LogoText>Gugale</LogoText>
           </LogoContainer>
-          {/* <LinksContainer>
-            <Link href="#">Home</Link>
-            <Link href="#">About</Link>
-            <Link href="#">Contact Us</Link>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
-          </LinksContainer> */}
+          <LinksContainer>
+            {/* <Link href="/">Home</Link>
+            <Link href="/about">About Us</Link>
+            <Link href="/our-services">Our Services</Link>
+            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/contact">Contact Us</Link> */}
+          </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://facebook.com">
+            <SocialLink href="https://www.facebook.com/gugalesolutions">
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://twitter.com">
-              <TwitterIcon />
+            <SocialLink href="https://www.instagram.com/gugalesolutions">
+              <InstagramIcon />
             </SocialLink>
-            <SocialLink href="https://youtube.com">
+            <SocialLink href="https://www.youtube.com/channel/UCldZf7EhjlMQcx8V-qynfew/?guided_help_flow=5">
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText>
-            &copy; Copyright 2020, Treact Inc. All Rights Reserved.
+            &copy; Copyright 2020, Gugale Ltda. Todos os direitos reservados.
           </CopyrightText>
         </Row>
       </Content>

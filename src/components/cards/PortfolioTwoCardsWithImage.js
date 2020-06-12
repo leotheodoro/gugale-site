@@ -8,6 +8,8 @@ import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
 import { ReactComponent as LocationIcon } from "feather-icons/dist/icons/map-pin.svg";
 import { ReactComponent as TimeIcon } from "feather-icons/dist/icons/clock.svg";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
+import BiguaImg from "images/portfolio/bigua.PNG";
+import YachtImg from "images/portfolio/yacht.PNG";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
@@ -68,27 +70,21 @@ export default ({
   ),
   description = "Nosso objetivo sempre é trazer o melhor para o cliente, nosso portfólio é a prova disso, você pode dar uma olhada nos projetos e produções que já desenvolvemos.",
   linkText = "Veja todos nossos projetos",
-  cardLinkText = "Read Case Study",
+  cardLinkText = "",
   textOnLeft = false,
 }) => {
   const cards = [
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1563461660947-507ef49e9c47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Tesla Inc.",
-      type: "Ad Campaign",
-      title: "Personalized Ad Campaign using Google AdWords",
-      durationText: "90 Days Campaign",
-      locationText: "New York",
+      imageSrc: BiguaImg,
+      company: "Biguá Distribuidora.",
+      type: "Software",
+      title: "Sistema de gerenciamento de uma distribuidora de carros",
     },
     {
-      imageSrc:
-        "https://images.unsplash.com/photo-1573165231977-3f0e27806045?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80",
-      company: "Nestle",
-      type: "SEO Marketing",
-      title: "Ranking #1 for keywords like Chocolate, Snack",
-      durationText: "180 Day Campaign",
-      locationText: "Palo Alto",
+      imageSrc: YachtImg,
+      company: "Yacht Club At Ventura",
+      type: "Software",
+      title: "Gestão para síndicos e moradores de condomínio",
     },
   ];
   return (
@@ -115,15 +111,7 @@ export default ({
                     <CardType>{card.type}</CardType>
                   </CardHeader>
                   <CardTitle>{card.title}</CardTitle>
-                  <CardMeta>
-                    <CardMetaFeature>
-                      <TimeIcon /> {card.durationText}
-                    </CardMetaFeature>
-                    <CardMetaFeature>
-                      <LocationIcon /> {card.locationText}
-                    </CardMetaFeature>
-                  </CardMeta>
-                  <CardAction>{cardLinkText}</CardAction>
+                  {/* <CardAction>{cardLinkText}</CardAction> */}
                 </CardText>
               </Card>
             </CardColumn>

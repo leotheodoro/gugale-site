@@ -41,7 +41,7 @@ export default ({
   subheading = "Fale com a gente",
   heading = (
     <>
-      Sinta-se confortáver para
+      Sinta-se confortável para
       <span tw="text-primary-500"> entrar com contato</span>
       <wbr /> com a gente.
     </>

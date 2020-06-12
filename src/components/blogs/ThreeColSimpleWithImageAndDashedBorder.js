@@ -70,23 +70,25 @@ export default ({
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1479660095429-2cf4e1360472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80",
-      author: "Owais Khan",
-      category: "Advertising",
-      title: "Creating The perfect advertisement campaign",
+        "https://media-exp1.licdn.com/dms/image/C4E22AQFW4hLBPpMkBA/feedshare-shrink_1280/0?e=1594857600&v=beta&t=pNdQH7T_bi-SGF1apfZ4B4y3JgJLH4X8jWF2M9ZQ_HY",
+      author: "Leonardo Theodoro",
+      category: "Hackathon",
+      title: "Meu primeiro hackathon",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com",
+        "Me lembro de quando participei em 2018 do meu primeiro Benchmarking Junior com o tema Inovação & Sustentabilidade pela escola SENAI Bauru.",
+      url:
+        "https://www.linkedin.com/feed/update/urn:li:activity:6646570972407226368/",
     },
     {
       imageSrc:
-        "https://images.unsplash.com/photo-1579869847514-7c1a19d2d2ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80",
-      author: "Steve Schoger",
-      category: "Social Media",
-      title: "Efficient management of your social media assets",
+        "https://media-exp1.licdn.com/dms/image/C4E22AQHr5-aHCVwjmw/feedshare-shrink_1280/0?e=1594857600&v=beta&t=d2t1QWCruL-YRUAZkqRWxOO53HPX0HwHx7YOAzkF-ZI",
+      author: "Leonardo Theodoro",
+      title: "Comunidade de inovadores",
+      category: "Projeto Social",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      url: "https://timerse.com",
+        "Nossa comunidade consiste em um grupo de desenvolvedores apaixonados por tecnologia e inovação que estão dispostos a troca experiências e conhecimento para fazer com que nos tornemos profissionais melhores.",
+      url:
+        "https://www.linkedin.com/posts/leonardo-theodoro_desenvolvedores-opensource-voluntaerrios-activity-6643607517542838272-sMVX",
     },
   ];
   return (

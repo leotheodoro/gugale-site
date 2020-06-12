@@ -7,7 +7,7 @@ import {
   Subheading as SubheadingBase,
 } from "components/misc/Headings.js";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons.js";
-import StatsIllustrationSrc from "images/stats-illustration.svg";
+import FansIllustration from "images/fans-illustration.svg";
 import { ReactComponent as SvgDotPattern } from "images/dot-pattern.svg";
 
 const Container = tw.div`relative`;
@@ -57,7 +57,7 @@ export default ({
   description = "Constante em evolução, estamos sempre buscando o que há de melhor no mercado para melhorar a qualidade de vida de nossos clientes. Ao longo da nossa jornada, já desenvolvemos softwares para automatizar o trabalho das pessoas como também já impulsionamos empresas com produções audiovisuais fantásticas e soluções inovadoras.",
   primaryButtonText = "Conheça nossa história",
   primaryButtonUrl = "https://timerse.com",
-  imageSrc = StatsIllustrationSrc,
+  imageSrc = FansIllustration,
   imageCss = null,
   imageContainerCss = null,
   imageDecoratorBlob = false,

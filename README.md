@@ -10,9 +10,9 @@
 - [ ] Criar página de portfólio
 - [ ] Criar página de contato
 
-- [ ] Colocar mais 2 artigos
-- [ ] Mudar as imagens
-- [ ] Redirecionar os botões
-- [ ] Personalizar footer
-- [ ] Cores
+- [x] Colocar mais 2 artigos
+- [x] Mudar as imagens
+- [x] Redirecionar os botões
+- [x] Personalizar footer
+- [x] Cores
 - [ ] Fontes
