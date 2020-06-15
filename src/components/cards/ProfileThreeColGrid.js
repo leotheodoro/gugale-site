@@ -12,6 +12,10 @@ import { ReactComponent as TwitterIcon } from "images/twitter-icon.svg";
 import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 
+import GustavoImg from "images/team/gustavo.jpg";
+import GabrielImg from "images/team/gabriel.jpg";
+import LeonardoImg from "images/team/leonardo.jpg";
+
 const HeadingContainer = tw.div``;
 const Heading = tw(SectionHeading)``;
 const Subheading = tw(SubheadingBase)`text-center mb-3`;
@@ -49,8 +53,7 @@ export default ({
   description = "Estamos sempre buscando as melhores soluções para que nosso cliente atinja seu objetivo final. Somos uma equipe profissional e com anos de experiência na área.",
   cards = [
     {
-      imageSrc:
-        "https://avatars2.githubusercontent.com/u/15631108?s=460&u=a5909a1c477ee1b42f013d2a2816c942fd1b1233&v=4",
+      imageSrc: GustavoImg,
       position: "Sócio-fundador",
       name: "Gustavo Henrique",
       links: [
@@ -65,8 +68,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        "https://avatars0.githubusercontent.com/u/56794007?s=400&u=064f037c5b7317dd2e6657ba5460a31d51cb6364&v=4",
+      imageSrc: GabrielImg,
       position: "Sócio-fundador",
       name: "Gabriel Guimarães",
       links: [
@@ -82,8 +84,7 @@ export default ({
       ],
     },
     {
-      imageSrc:
-        "https://avatars1.githubusercontent.com/u/31370547?s=400&u=dc778693a059b9f4ce92c9e8e74f0a8941082180&v=4",
+      imageSrc: LeonardoImg,
       position: "Sócio-fundador",
       name: "Leonardo Theodoro",
       links: [
