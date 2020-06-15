@@ -38,11 +38,10 @@ export default () => {
             <LogoText>Gugale</LogoText>
           </LogoContainer>
           <LinksContainer>
-            {/* <Link href="/">Home</Link>
-            <Link href="/about">About Us</Link>
-            <Link href="/our-services">Our Services</Link>
-            <Link href="/portfolio">Portfolio</Link>
-            <Link href="/contact">Contact Us</Link> */}
+            <Link href="/">Home</Link>
+            <Link href="/about">Sobre Nós</Link>
+            <Link href="/portfolio">Portfólio</Link>
+            <Link href="/contact">Contato</Link>
           </LinksContainer>
           <SocialLinksContainer>
             <SocialLink href="https://www.facebook.com/gugalesolutions">
