@@ -68,7 +68,7 @@ export default ({
       <span tw="text-primary-500">criativos e fantásticos.</span>
     </>
   ),
-  description = "Nosso objetivo sempre é trazer o melhor para o cliente, nosso portfólio é a prova disso, você pode dar uma olhada nos projetos e produções que já desenvolvemos.",
+  description = "Nosso objetivo sempre é trazer o melhor para o cliente. Nosso portfólio é a prova disso, você pode dar uma olhada nos projetos e produções que já desenvolvemos.",
   linkText = "Veja todos nossos projetos",
   cardLinkText = "",
   textOnLeft = false,

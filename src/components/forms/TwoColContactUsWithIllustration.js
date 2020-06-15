@@ -43,7 +43,7 @@ export default ({
     <>
       Sinta-se confortável para
       <span tw="text-primary-500"> entrar com contato</span>
-      <wbr /> com a gente.
+      <wbr /> com a nossa equipe.
     </>
   ),
   description = "Pode ser para falar sobre um projeto, tomar um café, qualquer coisa. Estamos à disposição.",

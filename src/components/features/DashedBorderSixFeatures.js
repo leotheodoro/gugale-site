@@ -64,19 +64,19 @@ export default () => {
       imageSrc: ConsultantIcon,
       title: "Consultoria",
       description:
-        "Ajudamos nossos clientes dando suporte tecnológico para impulsionar sua empresa.",
+        "Suporte tecnológico aos nossos clientes para impulsionar suas empresas.",
     },
     {
       imageSrc: DroneIcon,
       title: "Produções Audiovisuais",
       description:
-        "Fazemos vídeos institucionais e cinemáticos que ajudam o cliente a divulgar sua marca.",
+        "Vídeos institucionais e cinemáticos que ajudam o cliente a divulgar sua marca.",
     },
     {
       imageSrc: AppIcon,
       title: "Aplicativos",
       description:
-        "Desenvolvemos aplicativos e softwares personalizados para automatizar o workflow do cliente fazendo com que ele gaste menos tempo com trabalhos manuais.",
+        "Aplicativos e softwares personalizados para automatizar o workflow do cliente fazendo com que ele gaste menos tempo com trabalhos manuais.",
     },
   ];
 

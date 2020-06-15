@@ -60,7 +60,7 @@ export default ({
       desenvolvedores no seu projeto.
     </>
   ),
-  description = "Estamos sempre buscando as melhores soluções para que nosso cliente consiga seu objetivo final. Somos uma equipe profissional e com anos de experiência na área.",
+  description = "Estamos sempre buscando as melhores soluções para que nosso cliente atinja seu objetivo final. Somos uma equipe profissional e com anos de experiência na área.",
   primaryButtonText = "Veja o que já fizemos",
   primaryButtonUrl = "https://timerse.com",
   features = null,
