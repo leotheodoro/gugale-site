@@ -56,7 +56,7 @@ export default ({
   ),
   description = "Constante em evolução, estamos sempre buscando o que há de melhor no mercado para melhorar a qualidade de vida de nossos clientes. Ao longo da nossa jornada, já desenvolvemos softwares para automatizar o trabalho das pessoas como também já impulsionamos empresas com produções audiovisuais fantásticas e soluções inovadoras.",
   primaryButtonText = "Conheça nossa história",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonUrl = "/about",
   imageSrc = FansIllustration,
   imageCss = null,
   imageContainerCss = null,

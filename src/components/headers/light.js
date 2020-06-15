@@ -65,9 +65,9 @@ export default ({
 }) => {
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/about">About Us</NavLink>
-      <NavLink href="/our-services">Our Services</NavLink>
-      <NavLink href="/portfolio">Portfolio</NavLink>
+      <NavLink href="/">Home</NavLink>
+      <NavLink href="/about">Sobre nós</NavLink>
+      <NavLink href="/portfolio">Portfólio</NavLink>
       <PrimaryLink
         css={roundedHeaderButton && tw`rounded-full`}
         href="/contact"

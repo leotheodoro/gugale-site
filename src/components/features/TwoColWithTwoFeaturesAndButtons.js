@@ -61,8 +61,8 @@ export default ({
     </>
   ),
   description = "Estamos sempre buscando as melhores soluções para que nosso cliente atinja seu objetivo final. Somos uma equipe profissional e com anos de experiência na área.",
-  primaryButtonText = "Veja o que já fizemos",
-  primaryButtonUrl = "https://timerse.com",
+  primaryButtonText = "Veja quem somos",
+  primaryButtonUrl = "/about",
   features = null,
   textOnLeft = true,
 }) => {

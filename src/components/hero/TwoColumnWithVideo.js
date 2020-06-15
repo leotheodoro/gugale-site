@@ -62,7 +62,7 @@ export default ({
   heading = "Soluções inovadoras para decolar seu negócio",
   description = "Precisando impulsionar sua empresa? Não sabe como pode melhorar seu negócio digitalmente? Estamos aqui para você!",
   primaryButtonText = "Tome um café com a gente",
-  primaryButtonUrl = "#",
+  primaryButtonUrl = "/contact",
   watchVideoButtonText = "Conheça a gente",
   watchVideoYoutubeUrl = "https://www.youtube.com/embed/_GuOjXYl5ew",
   imageSrc = StartupIllustration,
