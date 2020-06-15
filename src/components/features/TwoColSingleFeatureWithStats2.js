@@ -54,7 +54,7 @@ export default ({
       <span tw="text-primary-500">2018.</span>
     </>
   ),
-  description = "Constante em evolução, estamos sempre buscando o que há de melhor no mercado para melhorar a qualidade de vida de nossos clientes. Ao longo da nossa jornada, já desenvolvemos softwares para automatizar o trabalho das pessoas como também já impulsionamos empresas com produções audiovisuais fantásticas e soluções inovadoras.",
+  description = "Em constante evolução, estamos sempre buscando o que há de melhor no mercado para melhorar a qualidade de vida de nossos clientes. Ao longo da nossa jornada, já desenvolvemos softwares para automatizar o trabalho das pessoas como também já impulsionamos empresas com produções audiovisuais fantásticas e soluções inovadoras.",
   primaryButtonText = "Conheça nossa história",
   primaryButtonUrl = "/about",
   imageSrc = FansIllustration,

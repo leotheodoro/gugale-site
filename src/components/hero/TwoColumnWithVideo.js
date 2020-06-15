@@ -80,7 +80,7 @@ export default ({
         <TwoColumn>
           <LeftColumn>
             <Heading>{heading}</Heading>
-            <Paragraph>{description}</Paragraph>
+            <Paragraph style={{ color: "#333" }}>{description}</Paragraph>
             <Actions>
               <PrimaryButton as="a" href={primaryButtonUrl}>
                 {primaryButtonText}

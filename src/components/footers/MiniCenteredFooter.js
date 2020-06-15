@@ -63,7 +63,7 @@ export default () => {
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
-          <CopyrightText>
+          <CopyrightText style={{ color: "#fff" }}>
             &copy; Copyright 2020, Gugale Ltda. Todos os direitos reservados.
           </CopyrightText>
         </Row>

@@ -66,15 +66,15 @@ export default ({
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
             <Form action={formAction} method={formMethod}>
-              <label style={{ display: "none" }} htmlFor="email">
-                E-mail
+              <label htmlFor="email">
+                <span style={{ display: "none" }}>E-mail</span>
+                <Input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email Address"
+                />
               </label>
-              <Input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Your Email Address"
-              />
               <SubmitButton type="submit">{submitButtonText}</SubmitButton>
             </Form>
           </TextContent>
