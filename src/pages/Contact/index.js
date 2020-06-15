@@ -3,14 +3,14 @@ import AnimationRevealPage from "helpers/AnimationRevealPage.js";
 import tw from "twin.macro";
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/footers/MiniCenteredFooter.js";
 import ContactUsForm from "components/forms/TwoColContactUsWithIllustrationFullForm.js";
 import ContactDetails from "components/cards/ThreeColContactDetails.js";
 
 const Address = tw.span`leading-relaxed`;
 const AddressLine = tw.span`block`;
 const Email = tw.span`text-sm mt-6 block text-gray-500`;
-const Phone = tw.span`text-sm mt-0 block text-gray-500`;
+const Phone = tw.a`text-sm mt-0 block text-primary-500`;
 
 export default () => {
   return (
@@ -20,80 +20,56 @@ export default () => {
       <ContactDetails
         cards={[
           {
-            title: "New York",
+            title: "Gustavo Henrique",
             description: (
               <>
                 <Address>
-                  <AddressLine>40 Gates Court</AddressLine>
-                  <AddressLine>Endicott, NY 13760</AddressLine>
+                  {/* <AddressLine>CEO</AddressLine> */}
+                  <AddressLine>Bauru, SP</AddressLine>
                 </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
+                <Email>gustavo@gugale.com.br</Email>
+                <Phone
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5514981348117&text=Contato%20do%20Site&source=&data=&app_absent="
+                >
+                  +55 14 98134-8117
+                </Phone>
               </>
             ),
           },
           {
-            title: "Illinois",
+            title: "Gabriel Guimarães",
             description: (
               <>
                 <Address>
-                  <AddressLine>602 Annadale Drive</AddressLine>
-                  <AddressLine>Dekalb, IL 60115</AddressLine>
+                  {/* <AddressLine>602 Annadale Drive</AddressLine> */}
+                  <AddressLine>Bauru, SP</AddressLine>
                 </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
+                <Email>gabriel@gugale.com.br</Email>
+                <Phone
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5511995593377&text=Contato%20do%20Site&source=&data=&app_absent="
+                >
+                  +55 11 99559-3377
+                </Phone>
               </>
             ),
           },
           {
-            title: "California",
+            title: "Leonardo Theodoro",
             description: (
               <>
                 <Address>
-                  <AddressLine>96 NE. Delaware Lane</AddressLine>
-                  <AddressLine>Sacramento, CA 95820</AddressLine>
+                  {/* <AddressLine>602 Annadale Drive</AddressLine> */}
+                  <AddressLine>Bauru, SP</AddressLine>
                 </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
-              </>
-            ),
-          },
-          {
-            title: "Tennessee",
-            description: (
-              <>
-                <Address>
-                  <AddressLine>74 Peachtree Ave.</AddressLine>
-                  <AddressLine>Dyersburg, TN 38024</AddressLine>
-                </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
-              </>
-            ),
-          },
-          {
-            title: "New Jersey",
-            description: (
-              <>
-                <Address>
-                  <AddressLine>8355 Summer Street</AddressLine>
-                  <AddressLine>Manchester, NJ 08759</AddressLine>
-                </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
-              </>
-            ),
-          },
-          {
-            title: "Ohio",
-            description: (
-              <>
-                <Address>
-                  <AddressLine>7713 Snake Hill Ave.</AddressLine>
-                  <AddressLine>Piqua, OH 45356</AddressLine>
-                </Address>
-                <Email>contact@treact.com</Email>
-                <Phone>+1 (203) 991-6988</Phone>
+                <Email>leonardo@gugale.com.br</Email>
+                <Phone
+                  target="_blank"
+                  href="https://api.whatsapp.com/send?phone=5514981024031&text=Contato%20do%20Site&source=&data=&app_absent="
+                >
+                  +55 14 98102-4031
+                </Phone>
               </>
             ),
           },
