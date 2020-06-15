@@ -4,7 +4,7 @@ import tw from "twin.macro";
 import styled from "styled-components"; //eslint-disable-line
 import { css } from "styled-components/macro"; //eslint-disable-line
 import Header from "components/headers/light.js";
-import Footer from "components/footers/FiveColumnWithInputForm.js";
+import Footer from "components/footers/MiniCenteredFooter.js";
 import MainFeature1 from "components/features/TwoColWithButton.js";
 // import MainFeature2 from "components/features/TwoColSingleFeatureWithStats.js";
 // import MainFeature3 from "components/features/TwoColSingleFeatureWithStats2.js";
@@ -12,9 +12,9 @@ import Features from "components/features/ThreeColSimple.js";
 // import Features from "components/features/ThreeColWithSideImage.js";
 import TeamCardGrid from "components/cards/ProfileThreeColGrid.js";
 
-import SupportIconImage from "images/support-icon.svg";
-import ShieldIconImage from "images/shield-icon.svg";
-import CustomerLoveIconImage from "images/simple-icon.svg";
+import RespectIcon from "images/respect-icon.svg";
+import InnovationIcon from "images/innovation-icon.svg";
+import ResultsIcon from "images/results-icon.svg";
 
 const Subheading = tw.span`uppercase tracking-wider text-sm`;
 export default () => {
@@ -22,47 +22,49 @@ export default () => {
     <AnimationRevealPage>
       <Header />
       <MainFeature1
-        subheading={<Subheading>About Treact</Subheading>}
-        heading="We are a modern desgin agency."
+        subheading={<Subheading>Sobre Nós</Subheading>}
+        heading="Somos uma empresa de inovação e criatividade."
         buttonRounded={false}
+        description="Fascinados por tecnologia e por tudo que há de inovador no mercado, somos uma equipe de apaixonados por criação e dispostos a desenvolver e produzir ideias."
         primaryButtonText="See Portfolio"
-        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
+        imageSrc="https://images.unsplash.com/photo-1507582020474-9a35b7d455d9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
       />
       <MainFeature1
-        subheading={<Subheading>Our Vision</Subheading>}
-        heading="We aim to disrupt the desgin space."
+        subheading={<Subheading>Nossa Missão</Subheading>}
+        heading="Queremos melhorar a vida das pessoas."
         buttonRounded={false}
         primaryButtonText="Contact Us"
-        imageSrc="https://images.unsplash.com/3/doctype-hi-res.jpg?ixlib=rb-1.2.1&auto=format&fit=crop&w=768&q=80"
+        description="Nossa principal missão é fazer com que as pessoas foquem no que realmente é importante na sua vida e deixe a tecnologia realizar os trabalhos manuais."
+        imageSrc="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=768&q=80"
         textOnLeft={false}
       />
       <Features
-        subheading={<Subheading>Our Values</Subheading>}
-        heading="We follow these."
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        subheading={<Subheading>Nosso Valores</Subheading>}
+        heading="Nosso código de conduta."
+        // description="Respeito e transparência são os p"
         cards={[
           {
-            imageSrc: SupportIconImage,
-            title: "24/7 Support",
+            imageSrc: RespectIcon,
+            title: "Ética e Transparência",
             description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
+              "Respeito e amor pelo próximo são essenciais nos relacionamentos com nossa equipe e com o cliente.",
           },
           {
-            imageSrc: ShieldIconImage,
-            title: "Strong Teams",
+            imageSrc: InnovationIcon,
+            title: "Criatividade e Inovação",
             description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
+              "Sempre buscando o que existe de melhor em termos de tecnologia para você.",
           },
           {
-            imageSrc: CustomerLoveIconImage,
-            title: "Customer Satisfaction",
+            imageSrc: ResultsIcon,
+            title: "Resultados",
             description:
-              "Lorem ipsum donor amet siti ceali placeholder text alipiscing elit sed do eiusmod temport",
+              "O principal motivo disso tudo é fazer você com que você tenha resultados.",
           },
         ]}
         linkText=""
       />
-      <TeamCardGrid subheading={<Subheading>Our Team</Subheading>} />
+      <TeamCardGrid subheading={<Subheading>Nosso Time</Subheading>} />
       <Footer />
     </AnimationRevealPage>
   );
