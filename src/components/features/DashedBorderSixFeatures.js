@@ -62,18 +62,21 @@ export default () => {
   const cards = [
     {
       imageSrc: ConsultantIcon,
+      imageAlt: "Consultoria",
       title: "Consultoria",
       description:
         "Suporte tecnológico aos nossos clientes para impulsionar suas empresas.",
     },
     {
       imageSrc: DroneIcon,
+      imageAlt: "Produções Audiovisuais",
       title: "Produções Audiovisuais",
       description:
         "Vídeos institucionais e cinemáticos que ajudam o cliente a divulgar sua marca.",
     },
     {
       imageSrc: AppIcon,
+      imageAlt: "Aplicativos",
       title: "Aplicativos",
       description:
         "Aplicativos e softwares personalizados para automatizar o workflow do cliente fazendo com que ele gaste menos tempo com trabalhos manuais.",
@@ -90,7 +93,10 @@ export default () => {
           <Column key={i}>
             <Card>
               <span className="imageContainer">
-                <img src={card.imageSrc || defaultCardImage} alt="" />
+                <img
+                  src={card.imageSrc || defaultCardImage}
+                  alt={card.imageAlt}
+                />
               </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>

@@ -45,18 +45,21 @@ export default () => {
         cards={[
           {
             imageSrc: RespectIcon,
+            imageAlt: "Ética e Transparência",
             title: "Ética e Transparência",
             description:
               "Respeito e amor pelo próximo são essenciais nos relacionamentos com nossa equipe e com o cliente.",
           },
           {
             imageSrc: InnovationIcon,
+            imageAlt: "Criatividade e Inovação",
             title: "Criatividade e Inovação",
             description:
               "Sempre buscando o que existe de melhor em termos de tecnologia para você.",
           },
           {
             imageSrc: ResultsIcon,
+            imageAlt: "Resultados",
             title: "Resultados",
             description:
               "O principal motivo disso tudo é fazer você com que você tenha resultados.",

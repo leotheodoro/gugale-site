@@ -92,7 +92,7 @@ export default ({
           {imageInsideDiv ? (
             <Image imageSrc={imageSrc} css={imageCss} />
           ) : (
-            <img src={imageSrc} css={imageCss} alt="" />
+            <img src={imageSrc} css={imageCss} alt="Nossa história" />
           )}
           {imageDecoratorBlob && <DecoratorBlob css={imageDecoratorBlobCss} />}
         </ImageColumn>

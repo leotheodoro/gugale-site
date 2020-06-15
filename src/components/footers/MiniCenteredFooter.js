@@ -34,7 +34,7 @@ export default () => {
       <Content>
         <Row>
           <LogoContainer>
-            <LogoImg src={logo} />
+            <LogoImg src={logo} alt="logo" />
             <LogoText>Gugale</LogoText>
           </LogoContainer>
           <LinksContainer>
@@ -44,13 +44,22 @@ export default () => {
             <Link href="/contact">Contato</Link>
           </LinksContainer>
           <SocialLinksContainer>
-            <SocialLink href="https://www.facebook.com/gugalesolutions">
+            <SocialLink
+              href="https://www.facebook.com/gugalesolutions"
+              aria-label="Facebook"
+            >
               <FacebookIcon />
             </SocialLink>
-            <SocialLink href="https://www.instagram.com/gugalesolutions">
+            <SocialLink
+              href="https://www.instagram.com/gugalesolutions"
+              aria-label="Instagram"
+            >
               <InstagramIcon />
             </SocialLink>
-            <SocialLink href="https://www.youtube.com/channel/UCldZf7EhjlMQcx8V-qynfew/?guided_help_flow=5">
+            <SocialLink
+              href="https://www.youtube.com/channel/UCldZf7EhjlMQcx8V-qynfew/?guided_help_flow=5"
+              aria-label="Youtube"
+            >
               <YoutubeIcon />
             </SocialLink>
           </SocialLinksContainer>
