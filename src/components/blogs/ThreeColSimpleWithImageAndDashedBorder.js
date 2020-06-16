@@ -12,6 +12,10 @@ import { ReactComponent as TagIcon } from "feather-icons/dist/icons/tag.svg";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { ReactComponent as SvgDecoratorBlob2 } from "../../images/svg-decorator-blob-3.svg";
 
+import OlimpiadaImg from "images/blog/olimpiada.webp";
+import MeetbonesImg from "images/blog/meetbones.webp";
+import HackathonImg from "images/blog/hackathon.webp";
+
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
 const ThreeColumn = tw.div`flex flex-col items-center lg:items-stretch lg:flex-row flex-wrap`;
@@ -59,7 +63,7 @@ export default ({
 }) => {
   const blogPosts = [
     {
-      imageSrc: "https://miro.medium.com/max/700/1*ijMM64cjmMauJC_6ExuZrw.jpeg",
+      imageSrc: OlimpiadaImg,
       author: "Leonardo Theodoro",
       category: "História",
       title: "Como foi ser competidor de Web Design",
@@ -69,8 +73,7 @@ export default ({
         "https://medium.com/@simplespinheiro/como-foi-ser-competidor-de-web-design-a2531095559d",
     },
     {
-      imageSrc:
-        "https://media-exp1.licdn.com/dms/image/C4E22AQFW4hLBPpMkBA/feedshare-shrink_1280/0?e=1594857600&v=beta&t=pNdQH7T_bi-SGF1apfZ4B4y3JgJLH4X8jWF2M9ZQ_HY",
+      imageSrc: HackathonImg,
       author: "Leonardo Theodoro",
       category: "Hackathon",
       title: "Meu primeiro hackathon",
@@ -80,8 +83,7 @@ export default ({
         "https://www.linkedin.com/feed/update/urn:li:activity:6646570972407226368/",
     },
     {
-      imageSrc:
-        "https://media-exp1.licdn.com/dms/image/C4E22AQHr5-aHCVwjmw/feedshare-shrink_1280/0?e=1594857600&v=beta&t=d2t1QWCruL-YRUAZkqRWxOO53HPX0HwHx7YOAzkF-ZI",
+      imageSrc: MeetbonesImg,
       author: "Leonardo Theodoro",
       title: "Comunidade de inovadores",
       category: "Projeto Social",

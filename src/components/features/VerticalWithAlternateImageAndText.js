@@ -4,11 +4,11 @@ import tw from "twin.macro";
 import { ReactComponent as SvgDotPatternIcon } from "../../images/dot-pattern.svg";
 import { SectionHeading as HeadingTitle } from "../misc/Headings.js";
 
-import GapsSoftwareImg from "images/portfolio/gaps-software.jpg";
-import GapsSiteImg from "images/portfolio/gaps-site.jpg";
-import BiguaImg from "images/portfolio/bigua.jpg";
-import YachtImg from "images/portfolio/yacht.jpg";
-import ConfiancaSiteImg from "images/portfolio/confianca-site.jpg";
+import GapsSoftwareImg from "images/portfolio/gaps-software.webp";
+import GapsSiteImg from "images/portfolio/gaps-site.webp";
+import BiguaImg from "images/portfolio/bigua.webp";
+import YachtImg from "images/portfolio/yacht.webp";
+import ConfiancaSiteImg from "images/portfolio/confianca-site.webp";
 
 const Container = tw.div`relative`;
 

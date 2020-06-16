@@ -5,8 +5,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import { SectionHeading, Subheading } from "components/misc/Headings.js";
 import { PrimaryLink as PrimaryLinkBase } from "components/misc/Links.js";
 import { ReactComponent as ArrowRightIcon } from "images/arrow-right-icon.svg";
-import BiguaImg from "images/portfolio/bigua.jpg";
-import YachtImg from "images/portfolio/yacht.jpg";
+import BiguaImg from "images/portfolio/bigua.webp";
+import YachtImg from "images/portfolio/yacht.webp";
 
 const Container = tw.div`relative`;
 const Content = tw.div`max-w-screen-xl mx-auto py-20 lg:py-24`;
