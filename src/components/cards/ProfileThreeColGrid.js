@@ -122,6 +122,7 @@ export default ({
                       href={link.url}
                       target="_blank"
                       rel="noopener noreferrer"
+                      aria-label="social-media"
                     >
                       <link.icon className="icon" />
                     </a>
