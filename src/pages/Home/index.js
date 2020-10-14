@@ -7,7 +7,7 @@ import MainFeature from "components/features/TwoColSingleFeatureWithStats2.js";
 import MainFeature2 from "components/features/TwoColWithTwoFeaturesAndButtons.js";
 import Portfolio from "components/cards/PortfolioTwoCardsWithImage.js";
 import Blog from "components/blogs/ThreeColSimpleWithImageAndDashedBorder.js";
-// import Testimonial from "components/testimonials/TwoColumnWithImageAndProfilePictureReview.js";
+import Testimonial from "components/testimonials/TwoColumnWithImageAndProfilePictureReview.js";
 import ContactUsForm from "components/forms/TwoColContactUsWithIllustration.js";
 import Footer from "components/footers/MiniCenteredFooter.js";
 
@@ -19,13 +19,13 @@ export default () => (
     <MainFeature2 />
     <Portfolio />
     {/* <Testimonial
-      subheading="Testimonials"
+      subheading="Depoimentos"
       heading={
         <>
-          Our Clients <span tw="text-primary-500">Love Us.</span>
+          O que nossos clientes <span tw="text-primary-500">falam.</span>
         </>
       }
-      description="Here are what some of our amazing customers are saying about our marketing professionals. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      description="Alguns depoimentos de nossos clientes sobre o que eles pensam sobre nossa equipe e nosso trabalho."
       testimonials={[
         {
           imageSrc:
@@ -33,9 +33,9 @@ export default () => (
           profileImageSrc:
             "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
           quote:
-            "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-          customerName: "Charlotte Hale",
-          customerTitle: "CEO, Tesla Inc.",
+            "A Gugale foi um grande parceiro de desenvolvimento, quase um extensão do nosso time. Atendimento, suporte e qualidade do código de primeira.",
+          customerName: "Fernando Lima",
+          customerTitle: "TWO Digital.",
         },
         {
           imageSrc:
@@ -44,8 +44,8 @@ export default () => (
             "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
           quote:
             "Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.",
-          customerName: "Adam Cuppy",
-          customerTitle: "Founder, Nestle",
+          customerName: "Tassiana Barro",
+          customerTitle: "GAPS Consultoria",
         },
       ]}
       textOnLeft={true}

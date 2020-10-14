@@ -64,6 +64,10 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText style={{ color: "#fff" }}>
+            Av. Nações Unidas, Qd 16-47, Sala 605.
+            <br /> Bauru - SP, Brasil.
+          </CopyrightText>
+          <CopyrightText style={{ color: "#fff" }}>
             &copy; Copyright 2020, Gugale Ltda. Todos os direitos reservados.
           </CopyrightText>
         </Row>
