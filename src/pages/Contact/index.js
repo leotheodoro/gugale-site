@@ -20,55 +20,18 @@ export default () => {
       <ContactDetails
         cards={[
           {
-            title: "Gustavo Henrique",
+            title: "Ramon Garcia",
             description: (
               <>
                 <Address>
                   {/* <AddressLine>CEO</AddressLine> */}
                   <AddressLine>Bauru, SP</AddressLine>
                 </Address>
-                <Email>gustavo@gugale.com.br</Email>
+                <Email>contato@gugale.com.br</Email>
                 <Phone
                   target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5514981348117&text=Contato%20do%20Site&source=&data=&app_absent="
-                >
-                  +55 14 98134-8117
-                </Phone>
-              </>
-            ),
-          },
-          {
-            title: "Gabriel Guimarães",
-            description: (
-              <>
-                <Address>
-                  {/* <AddressLine>602 Annadale Drive</AddressLine> */}
-                  <AddressLine>Bauru, SP</AddressLine>
-                </Address>
-                <Email>gabriel@gugale.com.br</Email>
-                <Phone
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5511995593377&text=Contato%20do%20Site&source=&data=&app_absent="
-                >
-                  +55 11 99559-3377
-                </Phone>
-              </>
-            ),
-          },
-          {
-            title: "Leonardo Theodoro",
-            description: (
-              <>
-                <Address>
-                  {/* <AddressLine>602 Annadale Drive</AddressLine> */}
-                  <AddressLine>Bauru, SP</AddressLine>
-                </Address>
-                <Email>leonardo@gugale.com.br</Email>
-                <Phone
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=5514981024031&text=Contato%20do%20Site&source=&data=&app_absent="
-                >
-                  +55 14 98102-4031
+                  href="https://api.whatsapp.com/send?phone=5514997525200&text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20site&source=&data=&app_absent=">
+                  +55 14 99752-5200
                 </Phone>
               </>
             ),

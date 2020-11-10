@@ -64,8 +64,11 @@ export default () => {
             </SocialLink>
           </SocialLinksContainer>
           <CopyrightText style={{ color: "#fff" }}>
-            Av. Nações Unidas, Qd 16-47, Sala 605.
+            Av. Nações Unidas, Qd 16-47, Sala 605. Edifício Lumina.
             <br /> Bauru - SP, Brasil.
+          </CopyrightText>
+          <CopyrightText style={{ color: "#fff" }}>
+            <a href="https://api.whatsapp.com/send?phone=5514997525200&text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20site&source=&data=&app_absent=" target="_blank">+55 (14) 99752-5200</a> | <a href="mailto:contato@gugale.com.br"> contato@gugale.com.br</a>
           </CopyrightText>
           <CopyrightText style={{ color: "#fff" }}>
             &copy; Copyright 2020, Gugale Ltda. Todos os direitos reservados.

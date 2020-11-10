@@ -67,22 +67,6 @@ export default ({
       ],
     },
     {
-      imageSrc: GabrielImg,
-      position: "Sócio-fundador",
-      name: "Gabriel Guimarães",
-      links: [
-        {
-          url:
-            "https://www.linkedin.com/in/gabriel-rocha-guimar%C3%A3es-13aaa5182/",
-          icon: LinkedinIcon,
-        },
-        {
-          url: "https://github.com/grlgmrs",
-          icon: GithubIcon,
-        },
-      ],
-    },
-    {
       imageSrc: LeonardoImg,
       position: "Sócio-fundador",
       name: "Leonardo Theodoro",
