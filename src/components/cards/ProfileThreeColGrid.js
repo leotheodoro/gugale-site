@@ -12,7 +12,6 @@ import { ReactComponent as LinkedinIcon } from "images/linkedin-icon.svg";
 import { ReactComponent as GithubIcon } from "images/github-icon.svg";
 
 import GustavoImg from "images/team/gustavo.jpg";
-import GabrielImg from "images/team/gabriel.jpg";
 import LeonardoImg from "images/team/leonardo.jpg";
 
 const HeadingContainer = tw.div``;
