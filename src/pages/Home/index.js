@@ -50,7 +50,7 @@ export default () => (
       ]}
       textOnLeft={true}
     /> */}
-    <Blog />
+    {/* <Blog /> */}
     <ContactUsForm />
     <Footer />
   </AnimationRevealPage>
