@@ -71,7 +71,7 @@ export default () => {
             <a href="https://api.whatsapp.com/send?phone=5514997525200&text=Olá,%20estou%20entrando%20em%20contato%20através%20do%20site&source=&data=&app_absent=" rel="noopener noreferrer" target="_blank" >+55 (14) 99752-5200</a> | <a href="mailto:contato@gugale.com.br"> contato@gugale.com.br</a>
           </CopyrightText>
           <CopyrightText style={{ color: "#fff" }}>
-            &copy; Copyright 2020, Gugale Ltda. Todos os direitos reservados.
+            &copy; Copyright 2021, Gugale Ltda. Todos os direitos reservados.
           </CopyrightText>
         </Row>
       </Content>

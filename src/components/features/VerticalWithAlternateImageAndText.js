@@ -9,6 +9,13 @@ import GapsSiteImg from "images/portfolio/gaps-site.webp";
 import BiguaImg from "images/portfolio/bigua.webp";
 import YachtImg from "images/portfolio/yacht.webp";
 import ConfiancaSiteImg from "images/portfolio/confianca-site.webp";
+import GuestierResidencialImg from "images/portfolio/guestier-residencial.webp";
+import HappyGourmetImg from "images/portfolio/happy-gourmet.webp";
+import OmnigraficaImg from "images/portfolio/omnigrafica.webp";
+import TecnogessoImg from "images/portfolio/tecnogesso.webp";
+import GuestierImg from "images/portfolio/guestier.webp";
+
+
 
 const Container = tw.div`relative`;
 
@@ -61,6 +68,7 @@ export default () => {
       title: "GAPS Consultoria",
       description:
         "Site institucional desenvolvido para a empresa GAPS Consultoria.",
+      link: 'https://gapsconsultoria.com.br',
     },
     {
       imageSrc: BiguaImg,
@@ -75,6 +83,45 @@ export default () => {
       title: "Yacht Club At Ventura",
       description:
         "Gestão para síndicos e moradores de condomínio com funcionalidades de criação de tickets, avisos, notícias, etc.",
+    },
+    {
+      imageSrc: GuestierResidencialImg,
+      subtitle: "Site",
+      title: "Guestier Residencial",
+      description:
+        "Site institucional para o incorporada Guestier com funcionalidades de Tour Virtual.",
+      link: 'https://residencialguestier.com.br',
+    },
+    {
+      imageSrc: GuestierImg,
+      subtitle: "Software",
+      title: "App Guestier",
+      description:
+        "Gestão do empreendimento, cadastro de compradores, sistema de gestão de contratos completo.",
+    },
+    {
+      imageSrc: HappyGourmetImg,
+      subtitle: "E-commerce",
+      title: "Happy Hourmet",
+      description:
+        "E-commerce para a Happy Gourmet com marketing incluído.",
+      link: 'https://happygourmet.com.br',
+    },
+    {
+      imageSrc: OmnigraficaImg,
+      subtitle: "Site",
+      title: "Omnigráfica",
+      description:
+        "Site Institucional desenvolvido para a empresa Omnigráfica.",
+      link: 'https://omnigrafica.com.br',
+    },
+    {
+      imageSrc: TecnogessoImg,
+      subtitle: "Site",
+      title: "Tecnogesso",
+      description:
+        "Site Institucional desenvolvido para a empresa Tecnogesso.",
+      link: 'https://tecnogessobauru.com.br',
     },
     {
       imageSrc: ConfiancaSiteImg,
@@ -103,6 +150,7 @@ export default () => {
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>
                 <Description>{card.description}</Description>
+                <a href={card.link} target="_blank" without rel="noopener noreferrer">{card.link}</a>
               </Details>
             </Card>
           ))}
