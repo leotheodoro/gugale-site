@@ -1,4 +1,4 @@
-"use strict";
+
 $(document).ready(function () {
 
     $('.carousel').carousel()
@@ -6,7 +6,7 @@ $(document).ready(function () {
     for (var i = 2; i < 63; i++) {
         $('.carousel-inner').append(`
         <div class="carousel-item">
-            <img class="d-block w-100" src="../image/guestier/${i}.jpeg" alt="${i} Slide">
+            <img class="d-block w-100" src="../guestierdois/image/guestier/${i}.jpeg" alt="${i} Slide">
         </div>
         `)
     }
